@@ -1,0 +1,61 @@
+.navBarSearchBarCart {
+  margin-left: 4%;
+  height: 7vh;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.CartAmountWithCurrency {
+  border-top: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.currencyText {
+  font-size: 1rem;
+  font-family: "alsarout";
+  font-family: "rabar";
+  font-family: "cocon-next-arabic";
+}
+
+.totalCartAmount {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.shoppingIcon {
+  border: 1px solid rgb(255, 255, 255);
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  margin-right: 20px;
+}
+
+.magnifyingIcon {
+  font-size: 1;
+}
+.mobileNavBarShoppingSearchSection {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobileMagnifyingDiv,
+.mobileShoppingDiv {
+  cursor: pointer;
+}

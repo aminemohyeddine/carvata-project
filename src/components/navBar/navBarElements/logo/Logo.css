@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.carvataNavBarLogo {
+  height: 16vh;
+  margin-right: 0px;
+  margin-left: 7%;
+}
+.mobileNavBarLogoContainer {
+  width: 70px;
+  height: 13vh;
+  padding-top: 20px;
+}
+.mobileNavBarLogo {
+  height: 10vh;
+  width: 20vh;
+  width: 70px;
+}

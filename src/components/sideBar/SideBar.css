@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.sideBarParent {
+  position: fixed;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.sideBarContainer {
+  position: absolute;
+  background-color: white;
+  left: calc(100% - 60%);
+  top: 0px;
+  height: 100%;
+  width: 385px;
+  animation: mymove 1s ease-in-out;
+}
+@keyframes mymove {
+  from {
+    left: -400px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.sideBarParentOff {
+  position: fixed;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.sideBarContainerOff {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 380px;
+  animation: mymoveoff 1s forwards;
+}
+@keyframes mymoveoff {
+  from {
+    left: -0px;
+  }
+  to {
+    left: -400px;
+  }
+}
+
+/* header */
+.sideBarCartHeader {
+  background-color: #fafafa;
+  height: 10vh;
+  width: 90%;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+.sideBarCloseIcon {
+  cursor: pointer;
+}
+.sideBarCartTitleItems {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.sideBarCartTitle,
+.sideBarCartItems {
+  font-size: 1.2rem;
+  font-family: "alsarout";
+  font-family: "rabar";
+  font-family: "cocon-next-arabic";
+}
+
+.sideBarContent {
+  font-size: 1.2rem;
+  font-family: "alsarout";
+  font-family: "rabar";
+  font-family: "cocon-next-arabic";
+  height: 62vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.sideBarFooterTotalTitleTotalPrice {
+  height: 25vh;
+  background-color: #fafafa;
+  width: 100%;
+}
+.sideBarFooterTotalTitleTotalPrice {
+  width: 90%;
+  height: 8vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sideBarFooterTotalPrice,
+.sideBarFooterTitle {
+  font-size: 1.2rem;
+  font-family: "alsarout";
+  font-family: "rabar";
+  font-family: "cocon-next-arabic";
+}
+.sideBarFooterButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 16vh;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+  background-color: rgb(255, 255, 255);
+}
+.sideBarFooterBuyNowButton {
+  border: none;
+  border-radius: 6px;
+  font-family: "alsarout";
+  font-family: "rabar";
+  font-family: "cocon-next-arabic";
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+  height: 7vh;
+  background-color: #803160;
+  margin-bottom: 1vh;
+  width: 90%;
+}
+.sideBarFooterBuyNowButton:hover {
+  background-color: #ffffff;
+  color: #803160;
+  border: 1px solid #803160;
+}
+.sideBarFooterKeepShoppingButton {
+  border: none;
+  border-radius: 6px;
+  font-family: "alsarout";
+  font-family: "rabar";
+  font-family: "cocon-next-arabic";
+  font-size: 1.2rem;
+  cursor: pointer;
+  height: 7vh;
+  color: #acb3c1;
+  border: 1px solid #acb3c1;
+
+  background-color: #ffffff;
+  width: 90%;
+}

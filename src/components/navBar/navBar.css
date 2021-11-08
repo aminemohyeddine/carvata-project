@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navBar containers */
+.navBarContainer {
+  background-color: #f4b720;
+  height: 17vh;
+  padding-right: 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.navBarContainerSticky {
+  position: sticky;
+  top: 0;
+  background-color: #f4b720;
+  height: 17vh;
+  padding-right: 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: mymove 20s;
+  animation-fill-mode: forwards;
+  z-index: 5;
+}
+@keyframes mymove {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+/* mobile navBar */
+
+.mobileNavBarContainer {
+  padding-left: 4%;
+  padding-right: 4%;
+  height: 11vh;
+  background-color: #f4b720;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: -1;
+}
